@@ -1,0 +1,46 @@
+<div class="container my-5">
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      Quotation
+    </div>
+    <div class="card-body">
+      <div class="form-group row">
+        <label for="id-number" class="col-md-3 col-form-label font-weight-bold">ID Number:</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control-plaintext" id="id-number" [value]="item.id" readonly>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="product-name" class="col-md-3 col-form-label font-weight-bold">Product Name:</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control-plaintext" id="product-name" [value]="item.product_name" readonly>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="quantity" class="col-md-3 col-form-label font-weight-bold">Quantity:</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control-plaintext" id="quantity" [value]="item.quantity" readonly>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="specification" class="col-md-3 col-form-label font-weight-bold">Specification:</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control-plaintext" id="specification" [value]="item.specification" readonly>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="vendor-name" class="col-md-3 col-form-label font-weight-bold">Vendor Name:</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control-plaintext" id="vendor-name" [value]="item.vendor_name" readonly>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-12 text-right">
+          <a [href]="pdfData" download="product-details.pdf" class="btn btn-primary">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
