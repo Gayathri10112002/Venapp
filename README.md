@@ -1,4 +1,4 @@
-# Venapp
+# Venapp - "VENdorselectAPP"
 
 
 This platform is designed for manufacturing companies to purchase raw materials and consumables. 
