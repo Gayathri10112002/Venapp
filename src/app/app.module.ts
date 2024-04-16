@@ -47,7 +47,7 @@ import { PrintComponent } from './print/print.component';
     MatSnackBarModule,
     MatTableModule,
     MatPaginatorModule,
-   // AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     MatIconModule
     
